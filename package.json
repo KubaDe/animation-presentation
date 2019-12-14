@@ -1,0 +1,32 @@
+{
+  "name": "animations-presentation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-live": "^2.2.0",
+    "spectacle": "^5.7.1",
+    "spectacle-scripts": "2.4.0",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src react-scripts start",
+    "build": "NODE_PATH=src react-scripts build",
+    "test": "NODE_PATH=src react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "spectacle/**/prismjs": "1.6.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
